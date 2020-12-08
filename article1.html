@@ -5,23 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Hi :)">
         <title>Guten Tag, Herr Inspekteur</title>
-        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/side-menu.css">
         <link rel="stylesheet" href="css/pure-min.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" href="css/main.css">
     </head>
     
-<!--Navigation bar-->
-<div id="nav-placeholder">
+<body>
 
-</div>
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+    
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
 
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
-<!--end of Navigation bar-->
+    </div>
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
     
     <div class="header">
         <h1>Saisonalität von Gold</h1>
@@ -35,6 +44,7 @@ $(function(){
         </p>
          <img class="full-width" src="images/gold_saisonalitaet.png">
     </div>
-  
+    
+</div>
     </body>
 </html>
